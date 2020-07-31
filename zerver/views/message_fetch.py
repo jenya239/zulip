@@ -959,6 +959,7 @@ def get_messages_backend(request: HttpRequest, user_profile: UserProfile,
     ret = dict(
         messages=message_list,
         result='success',
+        testtest='abracadabra1',
         msg='',
         found_anchor=query_info['found_anchor'],
         found_oldest=query_info['found_oldest'],
